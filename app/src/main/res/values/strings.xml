@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">WeMeal</string>
+    <string name="logo">LOGO</string>
+
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+
+    <string name="internet_not_working">Connection issue occurred. Pleas check your internet connection.</string>
+    <string name="cancel">Cancel</string>
+    <string name="try_again">Try Again</string>
+    <!--    <string name="limited_intxfsernet_connection">Limited Internet Connection</string>-->
+    <string name="auth_user_collision_message">It seems like %1$s is already linked with the following login providers. Please select any of following provider in order to login with your previous information.</string>
+    <string name="user_collision">User Collision</string>
+    <string name="select">Select</string>
+    <!--    <string name="operation_cancelled">Operation Cancelled</string>-->
+    <!--    <string name="operation_cancelled_content">It seems like you cancel the on-going operation. You can restart the process by simply clicking Try Again.</string>-->
+    <string name="auth_loading_message">We are authenticating you..</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="verified_buyer">Verified Buyer</string>
+    <string name="select_ur_area">Select your area to have the best experience</string>
+    <string name="search_ur_location">Search for your location</string>
+    <string name="ur_current_location_label">Your Current location</string>
+    <string name="change">CHANGE</string>
+    <string name="suggested_areas">Other suggested areas for you in</string>
+    <string name="drag_map">Drag the map and put the pin on your location</string>
+    <string name="follow_resturants_message">Qurba is more fun when you follow some\nrestaurants</string>
+    <string name="follow_foodies_message">Qurba is more fun when you follow some\nfoodies</string>
+
+    <string name="follow_three_resturants">Follow 3 Restaurants at least</string>
+    <string name="follow_three_foodies">Follow 3 foodies at least</string>
+
+    <string name="no_result">No Result Found</string>
+    <string name="no_match">Can’t find a match for </string>
+    <string name="use_current_location">Use your current location </string>
+
+    <string name="permission_dialog_title">Core fundamental are based on these permissions</string>
+    <string name="ok">OK</string>
+    <string name="permission_dialog_message">You need to allow necessary permissions in Settings manually</string>
+    <string name="select_ur_country">Select your country</string>
+    <string name="select_ur_city">Select your city</string>
+    <string name="select_ur_area_in">Select your area in </string>
+    <string name="select_ur_subarea_in">Select your sub area in </string>
+
+    <string name="search_cities">Search cities</string>
+    <string name="search_areas">Search areas and sub areas in </string>
+    <string name="search_subareas">Search sub areas in </string>
+
+    <string name="followers">Followers</string>
+    <string name="follow">Follow</string>
+    <string name="following">Following</string>
+    <string name="posts">Posts</string>
+    <string name="loading_message">Personalizing your feed for you…</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+    <string name="followings">Followings</string>
+
+    <string name="home">Home</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="offers">Offers</string>
+    <string name="foodies">Foodies</string>
+    <string name="profile">Profile</string>
+
+    <string name="show_more">Show more</string>
+    <string name="show_less">Show less</string>
+
+    <string name="share_ur_experience">Share your food experiences</string>
+
+    <string name="like_hint">Like</string>
+    <string name="reply_hint">Reply</string>
+    <string name="share_hint">Share</string>
+
+    <string name="view_menu">View Menu</string>
+    <string name="view_meal">View Meal</string>
+    <string name="view_offer">View Offer</string>
+    <string name="view_order">View Order</string>
+
+
+    <string name="post">\'s Post</string>
+    <string name="rules">Rules</string>
+    <string name="write_comment">Write a comment</string>
+    <string name="offer">\'s Offer</string>
+    <string name="meal">\'s Meal</string>
+
+    <string name="just_now">just now</string>
+    <string name="seconds_ago">seconds ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="days_ago">days ago</string>
+
+    <string name="share_external">Share Externally </string>
+    <string name="copy_link">Copy Link</string>
+    <string name="add">ADD</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="un_follow">UnFollow</string>
+    <string name="report">Report</string>
+    <string name="submit">Submit</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="copied">Copied</string>
+    <string name="share_via">Share Via</string>
+    <string name="deleted">Deleted</string>
+    <string name="unfollowed">Unfollowed</string>
+    <string name="unfollowed_title">You have unfollowed</string>
+    <string name="undo">Undo</string>
+    <string name="message_one">You won’t be able to see</string>
+    <string name="posts_small">posts</string>
+    <string name="message_two"> .and activities in your feed any more</string>
+    <string name="violation_title">Content Can’t be posted!</string>
+    <string name="violation_message">Your post violates our </string>
+    <string name="community_rules">community rules.</string>
+
+    <string name="deletion_title">Sorry! This post has been deleted.</string>
+    <string name="deletion_message">Refresh your page to get the latest updates.</string>
+
+
+    <string name="delete_post_title">Delete Post?</string>
+    <string name="delete_post_message">Are you sure that you want to permanently delete this post?</string>
+
+    <string name="report_post_title">Confirm your report?</string>
+    <string name="report_post_message">We will not notify anyone with your action </string>
+    <string name="report_submitted">Report submitted! Thanks for your feedback!</string>
+    <string name="whats_wrong">What’s Wrong?</string>
+    <string name="report_brief">Tell us why you want to report this account</string>
+    <string name="tell_us_more">Tell us more</string>
+    <string name="empty_report">Please insure you have typed a reason with minimum 20 characters</string>
+
+    <string name="delete_title">This post has been deleted!</string>
+    <string name="delete_message">Refresh your page to get the latest updates.</string>
+
+    <string name="has_followed">has followed</string>
+    <string name="have_followed">have followed</string>
+    <string name="and">and</string>
+    <string name="others">others</string>
+    <string name="other_foodies">other foodies</string>
+    <string name="other_restaurants">other restaurants</string>
+    <string name="see_all">See all</string>
+    <string name="follow_foodies">Follow Foodies</string>
+    <string name="follow_restaurants">Follow Restaurants</string>
+    <!--    TYPE-2     -->
+    <string name="posted_about">posted about</string>
+    <string name="foodies_posted_about">Foodies who posted about it</string>
+    <string name="liked">liked</string>
+    <string name="commented_on">commented on</string>
+    <string name="comment_on">comment on</string>
+    <string name="reply">reply</string>
+    <string name="to_his_comment">to his comment on</string>
+    <string name="to_her_comment">to her comment on</string>
+    <string name="replied_to">replied to</string>
+    <string name="have_shared">have shared</string>
+    <string name="who_shared">who shared</string>
+    <string name="who_ordered">who ordered from</string>
+    <string name="has_ordered">has ordered from</string>
+    <string name="have_ordered">have ordered from</string>
+    <string name="who_commented">who commented on</string>
+    <!--    TYPE-3    -->
+    <string name="promoted">Promoted</string>
+    <!--    TYPE-4    -->
+    <string name="follow_more_rest">Follow More restaurants</string>
+    <string name="foodies_knows">Foodies you may know</string>
+
+    <string name="create_post">Create a post</string>
+    <string name="create_new_post">Create a new post</string>
+    <string name="_post">POST</string>
+
+    <string name="create_post_hint">Write your experience here…</string>
+    <string name="add_images">Add images</string>
+    <string name="tag_object">Tag restaurant, meal, offer, or order</string>
+    <string name="agreed">I agree</string>
+    <string name="add_images_to_post">Add images to your post</string>
+
+    <string name="discard_title">Discard Post?</string>
+    <string name="discard_message">Are you sure that you want to discard this post?</string>
+    <string name="discard">Discard</string>
+
+    <string name="posted">Posted!</string>
+    <string name="posting_failed">Posting failed!</string>
+    <string name="posting">Posting…</string>
+    <string name="posting_tip">Posting tip</string>
+    <string name="post_rules_message">Respecting posting rules will prevent your post from getting deleted.</string>
+    <string name="tagged_rules_message">Tagging a restaurant, meal, offer or order  wil make your post 2x visible..</string>
+
+    <string name="community_rules_title">Community Rules </string>
+    <string name="community_rules_message">Please read and revise our community guidelines and have delightful food thoughts sharing experience:</string>
+
+    <string name="max_images_recahes">Can’t share more than 10 images in one post!</string>
+    <string name="done">DONE</string>
+    <string name="also_share">Also Share on Restaurant page</string>
+    <string name="tag_post">Tag your post</string>
+    <string name="search_restaurants">Search by restaurant name or cuisine</string>
+
+    <string name="search_restaurants_hint">Search for a restaurant to tag it in your post</string>
+    <string name="search_offers_hint">Search for an offer to tag it in your post</string>
+    <string name="search_meals_hint">Search for a meal to tag it in your post</string>
+    <string name="search_order_hint">Search for an order to tag it in your post</string>
+
+    <string name="engage_title">Foodies tend to engage more with posts that contain images!</string>
+    <string name="choose_from_gallery">Choose from Restaurant Gallery</string>
+    <string name="post_anyway">Post anyway</string>
+    <string name="selected">selected</string>
+    <string name="restaurant_cover">Restaurant Cover Photo</string>
+    <string name="restaurant_gallery">Restaurant Gallery</string>
+    <string name="menu_gallery">Menu Gallery</string>
+    <string name="offers_gallery">Offers Gallery</string>
+    <string name="suggested_image">Suggested Image</string>
+    <string name="posting_image">Uploading Images</string>
+    <string name="of">of</string>
+
+
+
+
+
+</resources>

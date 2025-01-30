@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <array name="report_items">
+        <item>Insults my restaurant or another restaurant.</item>
+        <item>Toxic or unpleasant content.</item>
+        <item>Fake or spam account or pretending to be someone else.</item>
+        <item>Contains nudity or adult content.</item>
+        <item>Pretending to be my restaurant or another restaurant.</item>
+        <item>Harassing me or someone I know.</item>
+        <item>Hate speech.</item>
+        <item>Something else.</item>
+    </array>
+
+    <array name="rules_items">
+        <item>The content you are sharing should be food related..</item>
+        <item>All content on the app is public and can be shared within or outside the network.</item>
+        <item>Stay kind and respectful to others.</item>
+        <item>Avoid sharing toxic or unpleasant content </item>
+        <item>Make sure your content isn’t insulting other foodies or restaurants. </item>
+        <item>Posts must not contain nudity or any adult content.</item>
+        <item>Avoid spamming or having duplicate posts.</item>
+        <item>Stay authentic do not use a fake profile.</item>
+    </array>
+
+    <array name="tabs">
+        <item>Restaurants</item>
+        <item>Meals</item>
+        <item>Offers</item>
+        <item>Orders</item>
+    </array>
+
+    <array name="rules_items_icons_hex">
+        <item>🥘</item>
+        <item>🌎</item>
+        <item>😇</item>
+        <item>🤢</item>
+        <item>🤫</item>
+        <item>🔞</item>
+        <item>🚨</item>
+        <item>😎</item>
+    </array>
+
+</resources>

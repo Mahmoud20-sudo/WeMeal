@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--<androidx.core.widget.NestedScrollView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<com.wemeal.presentation.util.MentionEditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mention_editText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start|top"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:fadeScrollbars="false"
+    android:hint="@string/create_post_hint"
+    android:imeOptions="actionDone"
+    android:inputType="textCapSentences|textMultiLine"
+    android:scrollbarSize="@dimen/_10sdp"
+    android:scrollbarStyle="insideInset"
+    android:scrollbarThumbVertical="@color/splash"
+    android:scrollbars="vertical"
+    android:textColor="@color/black300"
+    android:textColorHint="@color/darkGrey300"
+    android:textSize="@dimen/_12ssp" />
+
+    <!--</androidx.core.widget.NestedScrollView>-->
+
+
+

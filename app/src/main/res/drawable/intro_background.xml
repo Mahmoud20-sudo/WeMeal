@@ -1,0 +1,13 @@
+<!-- Code for drawable -->
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:type="linear"
+        android:startColor="#e6406ae7"
+        android:endColor="#e6c63ad6"
+        android:angle="45" />
+    <stroke
+        android:width="1dp"
+        android:color="#979797" />
+</shape>
