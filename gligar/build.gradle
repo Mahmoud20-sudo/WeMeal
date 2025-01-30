@@ -1,0 +1,83 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+ext {
+    bintrayRepo = 'Gligar'
+    bintrayName = 'gligar'   // Has to be same as your library module name
+
+    publishedGroupId = 'com.opensooq.supernova'
+    libraryName = 'gligar'
+    artifact = 'gligar'     // Has to be same as your library module name
+
+    libraryDescription = 'Image Picker for Android, Pick an image from Gallery or Capture a new image with Camera'
+
+    // Your github repo link
+    siteUrl = 'https://github.com/OpenSooq/GligarPicker'
+    gitUrl = 'https://github.com/OpenSooq/GligarPicker.git'
+    githubRepository= 'OpenSooq/GligarPicker'
+
+    libraryVersion = '1.1.0'
+
+    developerId = 'OpenSooq'
+    developerName = 'OpenSooq'
+    developerEmail = 'hani.momanii@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 32
+//    buildToolsVersion "29.0.3"
+
+    androidExtensions {
+        experimental = true
+    }
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        minSdkVersion 17
+        targetSdkVersion 32
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.core:core-ktx:1.7.0'
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0"
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.0'
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2'
+    implementation "android.arch.paging:runtime:1.0.1"
+
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation 'com.google.android.material:material:1.6.0-alpha02'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+
+}
+
+//apply from: 'https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle'
+//apply from: 'https://gist.githubusercontent.com/tamtom/f54a538637178e4818bbc72f24a73e2d/raw/af6f8b6782475230cfff852ae11669c936e739a2/bintrayv1.gradle'
+tasks.withType(Javadoc).all {
+    enabled = false
+}
