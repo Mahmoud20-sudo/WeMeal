@@ -95,8 +95,11 @@ It's a food social app which gives you a great experience while you enjoying exp
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Kotlin][Kotlin]][Kotlin]
-* [![React][React.js]][React-url]
+* Kotlin
+* Java
+* Jetpack Compose
+* Firebase
+* Retrofit
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
