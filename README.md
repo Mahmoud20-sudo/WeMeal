@@ -32,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](upon request)
 
 It's a food social app which gives you a great experience while you enjoying experyencing resturants and cafes and gives your feedback on an ultimately way/ 
 
