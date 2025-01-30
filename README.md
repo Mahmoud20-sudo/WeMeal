@@ -44,6 +44,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * Kotlin
 * Java
 * Jetpack Compose
+* Room
+* Hilt
+* Coroutines
 * Firebase
 * Retrofit
 
