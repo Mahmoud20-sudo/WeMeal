@@ -32,10 +32,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-It's a food social app which gives you a great experience while you enjoying experyencing resturants and cafes and gives your feedback on an ultimately way/ 
+It's a food social app which gives you a great experience while you enjoying experyencing resturants and cafes and gives your feedback on an ultimately way.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
